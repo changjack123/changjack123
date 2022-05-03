@@ -4,24 +4,22 @@ header,nav,footer,menu,h5{
     text-align: center;
 }
 
+
+nav{
+    background-color: #178cec;
+    
+    
+}
 body{
     background-color: #ffffff;
     background-size: 1550px 230px;
     color:black; 
     margin: 100px;
 }
-nav{
-    background-color: #ffffff;
-    
-    
-}
-header{
-    background-color: #ffffff;
-}
 
 h1{
     font-weight: 300;
-    font-size: 300%;
+    font-size: 400%;
     text-align: center;
     line-height: 1;
     margin: 1px auto;
@@ -31,6 +29,10 @@ h1{
     background-repeat: no-repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+header{
+    background-color: #ffffff;
+}
+
     
     
     h2{
@@ -38,7 +40,8 @@ h1{
         margin-bottom: 1px;
         font-size: 50px;
         font-weight: 150;
-        color: #ffffff
+        color: #000000
+    
     
     
     }
@@ -67,44 +70,45 @@ h1{
     width: 250px;
     display: inline-block;
    }
+   .menu li{
+    list-style-type: none;
+    border:20px solid #94c8b100;
+    display: inline-block;
+    width: 250px;
+    
+    }
+    .menu3 a{
+        text-decoration: none;
+        
+       }
+    
+       .menu3 li{
+        list-style-type: none;
+        border:20px solid #94c8b100;
+        display: inline-block;
+        width: 250px;
+       }
+section{
+text-align: center;
+background-color: #178cec;
+color: #000000;
+
+}
+small{
+font-size: 5px;
+}
+
 
     .menu a{
         text-decoration: none;
         display: block;
-        padding: 15px;
-        background: rgb(52, 50, 50);
-        border-radius: 15px;
-        color: #ffffff;
+        padding: 30px;
+        background: rgb(251, 251, 251);
+        border-radius: 20px;
+        color: #000000;
         font-size: 25px;
         font-weight: 200;
     }
 
 
-    .menu li{
-        list-style-type: none;
-        border:20px solid #94c8b100;
-        display: inline-block;
-        width: 250px;
-        
-        }
-        .menu3 a{
-            text-decoration: none;
-            
-           }
-        
-           .menu3 li{
-            list-style-type: none;
-            border:20px solid #94c8b100;
-            display: inline-block;
-            width: 250px;
-           }
-section{
-    text-align: center;
-    background-color: rgb(52, 52, 52);
-    color: #ffffff;
-
-}
-small{
-    font-size: 5px;
-}
-    
+   
