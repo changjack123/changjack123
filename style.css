@@ -94,3 +94,25 @@ a:hover{
     display: block;
     clear: both;
 }
+nav{
+    background-color: black;
+    text-align: right;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: blue;
+    color: cadetblue;
+    transition: background-color 2s linear ,color 2s ease-in-out;
+}
+nav ul{
+    margin: 0px;
+}
