@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+h1{
+    color: blue;
+}
+h2{
+    color: red;
+}
+body,ul{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav{
+    background-color: orange;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: white;
+    color: orange;
+    transition: background-color 1s linear,color 1s ease-in;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(246, 209, 1,80%);
+}
+.title{
+    text-align: center;
+    font-family: 'Smooch', cursive;
+}
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+#photolist li{
+    list-style-type: none;
+    margin: 30px;
+}
+#photolist img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gold;
+}
+#photolist .emptyitem{
+    width: 200px;
+}
+.gotop{
+    font-size: 65px;
+    color: gray;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
